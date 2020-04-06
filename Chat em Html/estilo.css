@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+    color: rgb(0, 0, 0);
+  }
+  
+  .caixachat {
+    width: 500px;
+    min-width: 390;
+    height: 600px;
+    background: #223233;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 2px #000;
+    border-radius: 6px;
+  }
+  
+  .titulochat {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    width: 475px;
+    padding: 14px 10px;
+    background-color: #ccc;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .titulochat .textotitulo {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 1;
+    font-family: Arial;
+    font-weight: bold;
+  }
+  .batepapochat {
+    padding: 10px;
+    width: 475px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: rgb(182, 182, 182);
+  }
+  
+  .chat {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .chat .user-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .chat .user-photo img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .chat .chat-mensagem {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 10px 0;
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .atendente .chat-mensagem {
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .meu .chat-mensagem {
+    background: #5f5;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    order: -1;
+    text-align: right;
+  }
+  
+  .chat-formulario {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    word-wrap: break-word;
+  }
+  
+  .chat-formulario input {
+    background: #fbfbfb;
+    width: 75%;
+    height: 40px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #234;
+  }
+  
+  .chat-formulario button {
+    background: rgb(2, 9, 15);
+    padding: 20px 35px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin: 0 10px;
+    border-radius: 3px;
+    box-shadow: 0 3px 2px #000;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .chat-formulario button:hover {
+    background: #13c8d9;
+    transition: all 1s;
+  }
+  
